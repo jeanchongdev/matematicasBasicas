@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Outfit', sans-serif;
+}
+
+#video{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	z-index: -1;
+}
+
+.logo{
+	/*background: orange;*/
+	padding: 5px;
+}
+
+figure{
+	display: flex;
+	padding: 10px;
+	/*margin: auto 9%;*/
+}
+
+.img{
+	width: 150px;
+	height: 120px;
+	border-radius: 10px;
+	border: 2px solid black;
+	box-shadow: 8px 5px 5px black;
+}
+
+figcaption{
+	padding-left: 10%;
+	padding-top: 25px;
+	font-size: 50px;
+	color: blue;
+	text-shadow: 4px 4px black;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+
+/*---------------> Menu*/
+.menu{
+	display: flex;
+	justify-content: center;
+}
+
+.menu ul{
+	list-style: none;
+	margin-left: 5px;
+	display: block;
+	margin: auto;
+}
+
+.menu li{
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: black;
+}
+/*----------------> Fin Menu*/
+
+/*inicio main*/
+h2{
+	font-style: italic;
+	font-size: 40px;
+	color: blue;
+	font-weight: bold;
+}
+main{
+	margin-top: 30px;
+	margin-left: 2%;
+	z-index: 0;
+}
+main section h2{
+	text-align: center;
+}
+form{
+	text-align: center;
+	margin-top: 20px;
+}
+.cajas{
+	display: flex;
+}
+.cajas select{
+	border-radius: 10px;
+	background: left;
+	width: 255px;
+	margin: 3px;
+	text-align: center;
+	cursor: pointer;
+}
+.cajas span{
+	margin: 4px;
+	padding: 3px;
+	border: 1px solid black;
+	color: #b2ebf2;
+	width: 300px;
+	text-align: center;
+	font-size: 18px;
+	margin-left: 30%;
+	border-radius: 10px;
+}
+input{
+	margin: 3px;
+	padding: 2px;
+	border: 1px solid black;
+	width: 250px;
+	font-size: 18px;
+	border-radius: 10px;
+	background: left;
+}
+.boton{
+	font-size: 20px;
+	width: 250px;
+	font-style: italic;
+	padding: 3px;
+	color: blue;
+	border: 1px solid red;
+	margin-top: 10px;
+	cursor: pointer;
+}
+#botonIni{
+	color: black;
+	background: left;
+	text-align: center;
+}
+#botonLim{
+	color: black;
+	background: left;
+	text-align: center;
+}
+hr{
+	border: 1px solid black;
+	margin-top: 20px;
+}
+/*fin main*/
+
+/*inicio footer*/
+footer{
+	margin-bottom: 5px;
+	font-kerning: 10px;
+	grid-template-rows: auto 1fr auto;
+	background: left;
+	margin-top: 10px;
+}
+.h3{
+	margin: 5px 20px;
+	color: blue;
+	margin-top: 20px;
+}
+.pies{
+	display: flex;
+}
+.pies ul{
+	list-style: none;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.pies ul li{
+	float: left;
+}
+.pies a{
+	text-decoration: none;
+	padding: 2px;
+}
+/*----------------------*/
+.h{
+	margin: 5px 20px;
+	color: blue;
+	margin-left: 80%;
+	margin-top: -80px;
+}
+.pies1{
+	display: flex;
+	margin-left: 80%;
+}
+/*fin footer*/
+/*------------------> SUMA*/
+img.suma{
+	width: 150px !important;
+	margin-left: 42%;
+	margin-top: 60px;
+	opacity: 0.7;
+}
+.table1{
+	margin-left: 35%;
+	text-align: justify;
+	margin-top: 60px
+}
+.calcular{
+	cursor: pointer;
+}
+table input{ /*---------> INVOLUCRA LA SUMA RES Y TODO*/
+	background: left;
+	border: none;
+}
+.table1 td{
+	color: #18ffff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.table1 input{
+	color: white;
+	font-weight: bold;
+}
+.figcaption{
+	color: black;
+	font-weight: bold;
+}
+/*----------------> FIN SUMA*/
+/*------------------> RESTA*/
+img.resta{
+	width: 150px;
+	margin-left: 42%;
+	margin-top: 60px;
+	opacity: 0.7;
+}
+.table2{
+	margin-left: 35%;
+	text-align: justify;
+	margin-top: 60px;
+}
+.calcular1{
+	cursor: pointer;
+}
+.table2 td{
+	color: pink;
+	font-size: 20px;
+	font-weight: bold;
+}
+.table2 input{
+	color: white;
+	font-weight: bold;
+}
+.figcaption1{
+	color: pink;
+	font-weight: bold;
+}
+/*----------------> FIN RESTA*/
+/*------------------> MULTIPLICACION*/
+img.multi{
+	width: 150px;
+	margin-left: 42%;
+	margin-top: 60px;
+	opacity: 0.7;
+}
+.table3{
+	margin-left: 35%;
+	text-align: justify;
+	margin-top: 60px;
+}
+.calcular2{
+	cursor: pointer;
+}
+.table3 td{
+	color: orange;
+	font-size: 20px;
+	font-weight: bold;
+}
+.table3 input{
+	color: white;
+	font-weight: bold;
+}
+.figcaption2{
+	color: orange;
+	font-weight: bold;
+}
+/*------------------> FIN MULTIPLICACIÓN*/
+/*------------------> DIVISION*/
+img.divi{
+	width: 150px;
+	margin-left: 42%;
+	margin-top: 60px;
+	opacity: 0.7;
+}
+.table4{
+	margin-left: 35%;
+	text-align: justify;
+	margin-top: 60px;
+}
+.calcular3{
+	cursor: pointer;
+}
+.table4 td{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+.table4 input{
+	color: white;
+	font-weight: bold;
+}
+.figcaption3{
+	color: red;
+	font-weight: bold;
+}
+/*------------------> FIN DIVISIÓN*/
